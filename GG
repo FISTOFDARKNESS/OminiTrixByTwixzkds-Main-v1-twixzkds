@@ -940,4 +940,31 @@ Tab:AddButton({
 	end    
 })
 
+Tab:AddButton({
+	Name = "space npc ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(414.95709228515625, 35290.5703125, 244.31788635253906)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "coloseum ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1153.5635986328125, 7.670101165771484, -6941.88525390625)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "SuperOminiTrix Cave ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5092.29541015625, 6.885977745056152, -8425.8935546875)
+ 
+	end    
+})
+
 OrionLib:Init()
