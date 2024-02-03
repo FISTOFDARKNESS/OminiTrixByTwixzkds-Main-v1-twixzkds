@@ -8,7 +8,7 @@ local Window = OrionLib:MakeWindow({Name = "@Twixzkds", HidePremium = false, Sav
 
 local Tab = Window:MakeTab({
 	Name = "ＥＸＣＡＬＩＢＵＲ",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15108758568",
 	PremiumOnly = false
 })
 
@@ -445,7 +445,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Contra-Tempo",
+	Name = "Contra Tempo",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(contratempo))
          
@@ -460,7 +460,7 @@ Tab:AddButton({
 -----Untransform--------
 local Tab = Window:MakeTab({
 	Name = "Untransform",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15149455521",
 	PremiumOnly = false
 })
 
@@ -490,7 +490,7 @@ end
 
 local Tab = Window:MakeTab({
 	Name = "Aliens Recalibrated",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15149455521",
 	PremiumOnly = false
 })
 
@@ -603,7 +603,7 @@ local nanomech = {
 -------tranformar recalibrado---------
 
 Tab:AddButton({
-	Name = "Fogo FÃ¡tuo",
+	Name = "Fogo fatuo",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fogofatuo))
          
@@ -613,7 +613,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Eco Eco",
+	Name = "EchoEcho",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(echoecho))
          
@@ -673,7 +673,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Macaco-Aranha",
+	Name = "Macaco Aranha",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(macacoaranha))
          
@@ -727,7 +727,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "Ultratrix",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15149455521",
 	PremiumOnly = false
 })
 
@@ -829,7 +829,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "Sapien Celestial",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15149455521",
 	PremiumOnly = false
 })
 
@@ -857,7 +857,87 @@ Tab:AddButton({
 	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://15149455521",
+	PremiumOnly = false
+})
 
 
+local Section = Tab:AddSection({
+	Name = "Teleports local"
+})
+
+Tab:AddButton({
+	Name = "Teleport to button ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2446.177490234375, 299.6048583984375, -6989.2509765625)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "Tower Omini X ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(89049.0546875, -272.8567199707031, -42248.5234375)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "Alien X Quest 1, Part 1 (Castle)",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1912.4434814453125, -895.8948974609375, 931.8926391601562)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "Alien X Quest 2, Parte 2 (underwater ) ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-775.5474243164062, -189.9492950439453, -73702.9140625)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "Alien X Quest 3, Part (Hot and cold) ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.81784057617188, 112.49908447265625, 92830.8203125)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "Alien X Quest 4, Parte 4 (Cube)",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(101879.6015625, 2598.86767578125, -4027.4951171875)
+ 
+	end 
+}) 
+
+Tab:AddButton({
+	Name = "OminiTrix (first/Primeiro) ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.0207824707031, -44.189552307128906, -4354.06884765625)
+ 
+	end    
+})
+
+Tab:AddButton({
+	Name = "underCity ",
+	Callback = function()
+
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(816.0921020507812, -372.6776428222656, -1624.59765625)
+ 
+	end    
+})
 
 OrionLib:Init()
