@@ -932,15 +932,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "underCity ",
-	Callback = function()
-
-      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(816.0921020507812, -372.6776428222656, -1624.59765625)
- 
-	end    
-})
-
-Tab:AddButton({
 	Name = "space npc ",
 	Callback = function()
 
